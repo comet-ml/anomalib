@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
+permissions:
+  contents: read
+
 jobs:
   Tox:
     runs-on: [self-hosted, linux, x64]

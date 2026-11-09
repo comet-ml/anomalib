@@ -6,6 +6,9 @@ on:
     # every UTC 6PM from Mon to Fri
     - cron: "0 18 * * 1-5"
 
+permissions:
+  contents: read
+
 jobs:
   Bandit:
     runs-on: ubuntu-20.04
